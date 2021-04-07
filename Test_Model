@@ -63,7 +63,7 @@ model_inputs = total_dataset[len(total_dataset) - len(test_data)- dias_previstos
 model_inputs = model_inputs.reshape(-1, 1)
 model_inputs = scaler.transform(model_inputs)
 
-# Fazendo a previsào no Test Data
+# Fazendo a previsão no Test Data
 
 x_test = []
 
